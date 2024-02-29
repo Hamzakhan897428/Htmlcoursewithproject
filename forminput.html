@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is form Html </title>
+</head>
+<body>
+    <h2>FROM IN Html tags and inputs </h2>
+   <form action="backend.php">
+    <label for="name">Name</label>
+    <div>
+        <input type="text" name="myname" id="name" >
+    </div>
+    <br>
+    <div>
+      role:  <input type="text" name="myrole" >
+    </div>
+    <br>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="myemail" id="email" >
+    </div>
+    <br>
+    <div>
+     Date:   <input type="date" name="mydate" id="">
+    </div>
+    <br>
+    <div>
+       number <input type="number" name="mynumber" id="">
+    </div>
+       Checked <input type="checkbox" name="Button" checked>
+    </div>
+    <br>
+    <div>  Time<input type="time" name="mytime" ></div><br>
+    <div>
+      About yourself:  <textarea id="myTextarea" rows="05" cols="05">
+          </textarea>
+    </div><br>
+    <div> 
+        <label for="mygender">Gendar:</label>
+        Male<input type="radio" name="mygender" id="mygender">
+      Female  <input type="radio" name="mygender" id="mygender" >
+      other  <input type="radio" name="mygender" id="mygender">
+    </div><br>
+    <div>
+        <label for="myfile">File:</label>
+        <input type="file" name="myfile" id="myfile" >
+    </div><br>
+    <div>
+        <label for="mySelect"></label>
+        <select id="mySelect">
+            <option value="option1">Option 1</option>
+            <option value="option2" >Option 2</option> <!-- This option is selected by default -->
+            <option value="option3" selected>Option 3</option>
+          </select>
+    </div><br>
+    <input type="button" value="mybutton">
+    <div>
+        <input type="submit" value="submit Now">
+        <input type="reset" value="Resetvalue">
+    </div>
+   </form>
+</body>
+</html>
